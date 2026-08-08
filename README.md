@@ -8,4 +8,4 @@ The Bank for the FunQuan LMS<br>
 We have documented all deliverables into a single document for a seamless experience while going through our project.
 
 Please refer to the below document:<br>
-[The Document: Here](INSERT_YOUR_LINK_HERE)
+[The Document: Here](https://drive.google.com/file/d/1_iTc9XqP82q73zq2HGh5AWvWcrII7UjO/view?usp=sharing)
