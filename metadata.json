@@ -1,0 +1,6 @@
+{
+  "name": "FunQuan LMS",
+  "description": "FunQuan is an interactive LMS for Quantum Machine Learning featuring 4 modular phases, gamified progress tracking, leaderboards, a 3D Bloch Sphere Simulator, Drag-and-Drop Quantum Circuit Builder, and Ask QuAI Tutor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

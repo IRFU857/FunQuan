@@ -1,11 +1,20 @@
-# FunQuan
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-The Bank for the FunQuan LMS<br>
-**Team Name:** FunQuan<br>
-**Team Lead:** Shaik Irfan<br>
-**Challenge:** WISER Education Challenge
+# Run and deploy your AI Studio app
 
-We have documented all deliverables into a single document for a seamless experience while going through our project.
+This contains everything you need to run your app locally.
 
-Please refer to the below document:<br>
-[The Document: Here](https://drive.google.com/file/d/1kf7pVkb_aun045BTHtnR6lcAQXL_agvk/view?usp=sharing)
+View your app in AI Studio: https://ai.studio/apps/81bc6716-7c57-4551-a429-fd126a12f1c6
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

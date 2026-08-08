@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "users": {
+      "title": "User Profile",
+      "description": "Student profiles, XP, badges, and progress state",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "username": { "type": "string" },
+        "country": { "type": "string" },
+        "mobile": { "type": "string" },
+        "avatar": { "type": "string" },
+        "xp": { "type": "number" },
+        "streak": { "type": "number" },
+        "level": { "type": "number" },
+        "claimedBadgeIds": { "type": "array", "items": { "type": "string" } },
+        "showRomanChapterOnBadge": { "type": "boolean" },
+        "completedLessonIds": { "type": "array", "items": { "type": "string" } },
+        "completedChallengeIds": { "type": "array", "items": { "type": "string" } },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["email", "name"]
+    },
+    "tutorChats": {
+      "title": "Ask QuAI Tutor Chat Sessions",
+      "description": "Student questions and Gemini AI tutor answers saved per user",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "messages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "sender": { "type": "string" },
+              "text": { "type": "string" },
+              "timestamp": { "type": "string" },
+              "phaseId": { "type": "number" },
+              "chapterTitle": { "type": "string" }
+            }
+          }
+        },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "messages"]
+    }
+  }
+}
